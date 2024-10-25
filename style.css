@@ -8,6 +8,9 @@
     font-size: var(--font-size-16);
     line-height: var(--line-height-24);
 }
+h1{
+    margin-bottom: 20px;
+}
 
 :root {
     --white: #FFFFFF;
