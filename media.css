@@ -44,5 +44,34 @@
 
 
 @media only screen and (max-width: 991px) {
+    .banner-desktop {
+        display: none!important;
+    }
 
+    .banner-mobile {
+        display: block;
+    }
+
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        background: transparent;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+@media only screen and (max-width: 575px) {
+
+    /* Offcanvas Menu */
+    .offcanvas-menu {
+        width: 80%;
+        left: -80%;
+    }
 }
